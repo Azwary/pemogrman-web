@@ -114,8 +114,8 @@ error_reporting(0);
     <form name="form1" method="post" action="hapus.php">
         <p><h1>Form Hapus Data Buku</h1></p>
         <p> Kode Buku:
-            <input type="text" name="kodespesialis" id="textfield" disable value="<?php echo $r['kodebuku']?>">
-            <input type="hidden"name="kodespesialis" value="<?php echo $r['kodebuku']?>">
+            <input type="text" name="kodebuku" id="textfield" disable value="<?php echo $r['kodebuku']?>">
+            <input type="hidden"name="kodbuku" value="<?php echo $r['kodebuku']?>">
         </p>
         <p>
             <input type="submit" name="btnsimpan" id="submit" value="Hapus">
